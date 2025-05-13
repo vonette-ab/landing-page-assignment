@@ -1,3 +1,40 @@
 header{
-    background-image: url("");
+    background-image: url("/images/bg1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed ;
+    height: 100vh;
+
 }
+
+nav{
+    display: flex;
+    gap: 100px;
+    flex-direction: row;
+    align-items: end;
+    justify-content:center;
+}
+
+.header-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    height: 100%;
+    width: 50%;
+    margin: auto;
+}
+ 
+.navlinks{ 
+    display: flex;
+    gap: 35px;
+}
+
+.navlinks {
+    list-style-type: none;
+}
+
+ 
+
