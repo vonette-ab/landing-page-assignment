@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/bg3.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: flex ;
+    height: 150vh;
+
+}
+
+nav{
+    text-decoration-color: maroon;
+    color: transparent;
+    display: flex;
+    font-size: 120%;
+    gap: 200px;
+    flex-direction: row;
+    align-items: end;
+    justify-content:center;
+    list-style-type: none;
+}
+   
+.nav-bar{  
+    font-size: large;
+    font-style: bold;
+    color: white;
+    background-color: transparent;
+}
+#text-maroon{
+    color: wheat;
+    font-size: larger;
+    font-style: italic;
+    text-decoration: overline;
+}
+
+.header-text{
+    color: white;
+    display: flex;
+    font-size: 300%;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+    margin: auto;
+}
+
+.header-box{
+    height: 100vh;
+}
+
+header a:hover{
+    color: brown;
+}
+
+.btn{
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.button-class{
+    background: transparent;
+    gap: 50px;
+    text-decoration: none;
+    font-size:medium;
+}
+
+
+.navlinks{ 
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    
+}
+.navlinks li{
+    list-style-type: none;
+}
+
+.navlinks a{
+    text-decoration: none;
+    color: white;
+}
+
+.Scheduling{
+    background-color: transparent;
+    font-size:xx-large;
+    font-style: oblique;
+    padding: 2rem 1rem;
+    border-radius: 5px;
+    padding: 20 5;
+    margin: 5 5;
+}
+
+.alpha-hour{
+    display: flex;
+    justify-content: right;
+    color: white;
+    
+}
+
+.breakdown {
+    background-image: url(../images/bg2.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.content h1{
+    font-size: 40px;
+}
+
+
+.highlight {
+    font-size: xx-large;
+    color: black;
+    font-style: italic;
+    font-weight: 300;
+}
