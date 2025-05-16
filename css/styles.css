@@ -56,7 +56,7 @@ nav{
 }
 
 header a:hover{
-    color: brown;
+    color: black;
 }
 
 .btn{
@@ -100,12 +100,7 @@ header a:hover{
     margin: 5 5;
 }
 
-.alpha-hour{
-    display: flex;
-    justify-content: right;
-    color: white;
-    
-}
+
 
 .breakdown {
     background-image: url(../images/bg2.jpg);
@@ -127,4 +122,32 @@ header a:hover{
     color: black;
     font-style: italic;
     font-weight: 300;
+}
+
+.portfolio {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 50%;
+    height: 200px;
+}
+
+.portfolio img{
+    width: 300px;
+
+}
+
+.explanation {
+    font-size: xx-large;
+    font-style: italic;
+    /* align-items: center; */
+        width: 40%;
+}
+
+.portfolio-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    margin-top: 40px;
 }
